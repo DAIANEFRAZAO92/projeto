@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif; 
+    margin: 0;   
+    /* esse de cikma é margem e o de baixo é espaçamento */
+    padding: 0;
+    background-image: url('../img/fundo.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+  }
+       
+
+  header{
+    
+      background-color: black;
+      color: aliceblue; /*cor do texto*/
+      text-align: center;  /*alinhamento do texto centralizado.*/
+      padding: 20px;
+      
+  }
+  nav{ 
+      background-color:rgb(20, 1, 13);
+      padding: 10px;
+      text-align: center;
+  }
+  nav a{ 
+      color: blueviolet;
+      text-decoration: none;
+      padding: 10px;
+  }
+  section{
+      padding: 20px;
+
+
+  }
+  footer{
+      background-color: grey;
+      color: aliceblue;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+
+
